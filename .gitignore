@@ -1,0 +1,46 @@
+# Local source bundle retained for reference
+.source-bundle/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Node and build artifacts
+node_modules/
+dist/
+build/
+coverage/
+
+# Infrastructure state
+.terraform/
+*.tfstate
+*.tfstate.*
+.serverless/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+~$*
